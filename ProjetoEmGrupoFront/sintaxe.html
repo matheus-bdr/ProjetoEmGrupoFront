@@ -16,8 +16,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="introducao_style.css" />
-    <link rel="stylesheet" href="formulario_style.css" />
-    <title>Formulário</title>
+    <title>Sintaxe CSS</title>
   </head>
   <body>
     <header>
@@ -33,44 +32,33 @@
       </div>
     </header>
 
-    <main class="apresentacao">
-      <section class="formulario">
-        <div class="inscricao-form">
-          <h1>
-            Participe do nosso processo e <span>ganhe uma bolsa integral</span>!
-          </h1>
-          <h2>Preencha o Formulário</h2>
-          <p>
-            Mussum Ipsum, cacilds vidis litro abertis. Atirei o pau no gatis,
-            per gatis num morreus. Copo furadis é disculpa de bebadis, arcu quam
-            euismod magna.Admodum accumsan disputationi eu sit. Vide electram
-            sadipscing et per.Casamentiss faiz malandris se pirulitá.
-          </p>
-        </div>
+    <main>
+      <section class="secao-conceitos">
+        <article class="conceito-1">
+          <h1>Qual a sintaxe do CSS?</h1>
 
-        <form action="#" method="post">
-          <div class="form-group">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required />
+          <div class="texto">
+            <p>
+              O seletor aponta para o elemento HTML que você deseja estilizar.
+            </p>
+            <p>
+              O bloco de declaração contém uma ou mais declarações separadas por
+              ponto e vírgula.
+            </p>
+            <p>
+              Cada declaração inclui um nome de propriedade CSS e um valor,
+              separados por dois pontos.
+            </p>
+            <p>
+              Várias declarações CSS são separadas por ponto e vírgula e os
+              blocos de declaração são cercados por chaves.
+            </p>
           </div>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
+
+          <div class="figure">
+            <img src="assets/sintaxe_css.gif" alt="sintaxe css" />
           </div>
-          <div class="form-group">
-            <label for="telefone">Telefone:</label>
-            <input type="tel" id="telefone" name="telefone" required />
-          </div>
-          <div class="form-group">
-            <label for="cpf">CPF:</label>
-            <input type="text" id="cpf" name="cpf" required />
-          </div>
-          <div class="form-group">
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-          </div>
-          <button class="button">Enviar</button>
-        </form>
+        </article>
       </section>
     </main>
 
